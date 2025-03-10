@@ -1,0 +1,72 @@
+[
+    {
+        "year": "December 2024",
+        "title": "Blocking of Viber and anime streaming websites",
+        "description": "Viber was blocked for violating Russian legal requirements, along with major anime streaming websites.",
+        "detailed_description": "In addition to Viber, popular anime sites such as jut.su, AnimeGO, and Yummy were also blocked. The reasons cited were non-compliance with Russian internet regulations.",
+        "url": "https://www.rbc.ru/technology_and_media/13/12/2024/675c690f9a79472300a900a9"
+    },
+    {
+        "year": "October 2024",
+        "title": "Blocking of Discord",
+        "description": "Discord was blocked due to violations of Russian legislation.",
+        "detailed_description": "Russian authorities justified the blocking by stating that the platform did not comply with regulations, possibly related to content moderation or data storage policies.",
+        "url": "https://www.rbc.ru/life/news/66f661ed9a7947100ae04329"
+    },
+    {
+        "year": "July 2024",
+        "title": "Blocking of the fanfiction website 'Ficbook'",
+        "description": "Ficbook was blocked for refusing to remove LGBT content.",
+        "detailed_description": "The Russian government demanded the removal of certain LGBT-related stories, and after non-compliance, the platform was fully restricted.",
+        "url": "https://www.rbc.ru/life/news/66f661ed9a7947100ae04329"
+    },
+    {
+        "year": "October 2023",
+        "title": "Blocking of the imageboard 'Ychan'",
+        "description": "Ychan, one of the oldest Russian imageboards, was blocked without prior warning.",
+        "detailed_description": "The imageboard, popular in Russian internet culture, was suddenly taken down. No prior notices were given to users or administrators before the restriction.",
+        "url": "https://habr.com/ru/news/775952/"
+    },
+    {
+        "year": "October 19, 2022",
+        "title": "Blocking of Metacritic",
+        "description": "Metacritic was blocked without official justification.",
+        "detailed_description": "The platform, known for aggregating reviews of movies, TV shows, and games, was unexpectedly blocked, with no clear reasons provided by Russian authorities.",
+        "url": "https://www.kommersant.ru/doc/5621243"
+    },
+    {
+        "year": "August 7, 2022",
+        "title": "Blocking of Patreon",
+        "description": "Patreon was blocked at the request of the Prosecutor General's Office.",
+        "detailed_description": "No official detailed explanation was provided, but the platform was known for supporting independent creators, some of whom were critical of the Russian government.",
+        "url": "https://www.rbc.ru/politics/07/08/2022/62ef760a9a7947569a57f76b"
+    },
+    {
+        "year": "March 14, 2022",
+        "title": "Blocking of Instagram",
+        "description": "Instagram was blocked after changing its content moderation policy to allow hate speech against Russian military personnel.",
+        "detailed_description": "The Russian government classified this policy change as extremist, leading to the platform's complete shutdown in Russia.",
+        "url": "https://www.vedomosti.ru/media/news/2022/03/14/913293-instagram-reestr-zapreschennih-saitov"
+    },
+    {
+        "year": "March 5, 2022",
+        "title": "Blocking of Twitter",
+        "description": "Twitter was blocked by a decision of the Prosecutor General's Office on February 24, 2022.",
+        "detailed_description": "This action was part of broader efforts to control online discussions regarding Russia’s military actions. The decision led to the restriction of Twitter across Russian ISPs.",
+        "url": "https://www.forbes.ru/tekhnologii/458149-v-rossii-vsled-za-facebook-zablokirovali-twitter"
+    },
+    {
+        "year": "March 4, 2022",
+        "title": "Blocking of Facebook",
+        "description": "Facebook was blocked due to 'discrimination against Russian media and information resources' and for extremist activities.",
+        "detailed_description": "The Russian authorities claimed that Facebook's policies allowed hate speech against Russian military personnel, leading to its classification as an extremist platform.",
+        "url": "https://www.interfax.ru/russia/826396"
+    },
+    {
+        "year": "2021",
+        "title": "Blocking of 'Smart Voting' website",
+        "description": "The 'Smart Voting' website was blocked due to its association with FBK, which was recognized as an extremist organization.",
+        "detailed_description": "The website was used as a platform for opposition electoral strategy. Its blocking was justified by its links to FBK, an organization declared extremist by Russian authorities.",
+        "url": "https://www.bbc.com/russian/news-58465775"
+    }
+]

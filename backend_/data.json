@@ -1,0 +1,68 @@
+[
+  {
+      "year": "January 1990",
+      "title": "Creation of Glasnet",
+      "description": "Funded by the American 'Association for Progressive Communications' from San Francisco, the public organization Glasnet was established.",
+      "detailed_description": "Glasnet was created to provide communication services for teachers, human rights activists, environmentalists, and other open society advocates. The name 'Glasnet' was coined by Americans by combining 'Glasnost' and 'Network'. In 1993, Glasnet became a commercial provider and later merged with Sovam Teleport in 1999."
+  },
+  {
+      "year": "August 1990",
+      "title": "Foundation of Relcom",
+      "description": "The computer network 'Relcom' was established, meaning 'RELIable COMmunications'.",
+      "detailed_description": "The project was led by specialists from the cooperative 'Demos', many of whom worked at the Kurchatov Institute. By the end of the year, around 30 organizations were connected, including scientific centers in Serpukhov, Saint Petersburg, Novosibirsk, and Dubna. Initially, it was an email-based network using UUCP technology, supporting Russian language communication."
+  },
+  {
+      "year": "February 1991",
+      "title": "Moscow-Barnaul modem connection",
+      "description": "The first communication session between Moscow and Barnaul took place via modem communication at a speed of 9600 baud using the basic TCP/IP protocol.",
+      "detailed_description": "This event marked a significant step towards internal Russian networking. By May of the same year, domestic network traffic exceeded external exchanges, making the network truly Russian."
+  },
+  {
+      "year": "July 1992",
+      "title": "Relcom joins EUnet",
+      "description": "Relcom was officially registered in the pan-European EUnet as 'EUnet/Relcom'.",
+      "detailed_description": "This integration made Relcom the largest European network. That same year, online IP protocol testing began, allowing real-time connections. Additionally, the non-commercial scientific network RELARN was launched with support from RosNIIROS."
+  },
+  {
+      "year": "April 1994",
+      "title": "RU domain registration",
+      "description": "The '.RU' domain was officially registered, marking the beginning of the Russian-language Internet.",
+      "detailed_description": "This was a major step towards an independent online identity for Russia. Around the same time, the Russian Universities Network (RUNNet) project began, creating a university-focused network infrastructure."
+  },
+  {
+      "year": "September 1995",
+      "title": "Launch of Russia on the Net",
+      "description": "Demos launched 'Russia on the Net', a directory of online resources.",
+      "detailed_description": "It became the first large-scale Russian web catalog, helping users navigate the growing Russian segment of the Internet. In the same year, Russia-On-Line became the first mass-market commercial provider, offering broad access to the Internet."
+  },
+  {
+      "year": "November 1995",
+      "title": "Foundation of Anekdot.ru",
+      "description": "Dmitry Verner launched www.anekdot.ru, one of Russia's most popular humor websites.",
+      "detailed_description": "Anekdot.ru quickly gained immense popularity and remained one of the top-rated sites on Rambler's Top 100. It pioneered user-generated content in the Russian internet space."
+  },
+  {
+      "year": "March 1997",
+      "title": "First Russian Internet Forum",
+      "description": "The First Russian Internet Forum was held, discussing corporate Internet applications.",
+      "detailed_description": "Organized by ROCIT and Open Systems Publishing, the forum gathered around 300 participants from nearly 200 Russian and Western companies, marking a major step in the institutionalization of the Russian Internet."
+  },
+  {
+      "year": "September 1997",
+      "title": "Launch of Yandex",
+      "description": "The Yandex search engine was officially launched, offering advanced Russian-language search capabilities.",
+      "detailed_description": "Yandex introduced innovative morphological search techniques, allowing better processing of Russian-language queries. It rapidly became the dominant search engine in the Russian internet space."
+  },
+  {
+      "year": "November 1998",
+      "title": "Launch of Lenta.ru",
+      "description": "Lenta.ru, a 24-hour online news service, was launched.",
+      "detailed_description": "Created by the Effective Policy Foundation, Lenta.ru quickly became the leading news resource in the Russian Internet. It was later acquired by investment groups, solidifying its influence."
+  },
+  {
+      "year": "November 1999",
+      "title": "Creation of TeleRoss",
+      "description": "Sovam Teleport, Glasnet, and Moscow Telephone Network merged into TeleRoss.",
+      "detailed_description": "TeleRoss later became part of Golden Telecom, marking a new stage of corporate consolidation in the Russian internet industry."
+  }
+]
