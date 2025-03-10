@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>History of the Internet in Russia</title>
+</head>
+<body>
+    <h1>News</h1>
+    <nav>
+        <div class="nav-buttons">
+            <button onclick="location.href='/frontend/html/index.html'">🏠 Home</button>
+            <button onclick="location.href='/frontend/html/history.html'">📜 History</button>
+            <button onclick="location.href='/frontend/html/dashboard.html'">📊 Dashboard</button>
+            <button onclick="location.href='/frontend/html/news.html'">📰 News</button>
+        </div>
+        <div class="burger-menu" onclick="toggleMenu()">
+            ☰
+        </div>
+         <div class="dropdown-menu">
+            <button onclick="location.href='/frontend/html/index.html'">🏠 Home</button>
+            <button onclick="location.href='/frontend/html/history.html'">📜 History</button>
+            <button onclick="location.href='/frontend/html/dashboard.html'">📊 Dashboard</button>
+            <button onclick="location.href='/frontend/html/news.html'">📰 News</button>
+        </div>
+    </nav>
+    <div id="news-container">
+    <!--Charging the handlebars library-->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+    <!--Template for the events-->
+    <script id="news-template" type="text/x-handlebars-template">
+        {{#each events}}
+        <div class = "news-box">
+                <h2>{{year}}: {{title}}</h2>
+                <p>{{description}}</p>
+                <p>{{detailed_description}}</p>
+                {{#if url}}
+                    <p><a href="{{url}}" target="_blank" rel="noopener noreferrer">Read more</a></p>
+                {{/if}}
+        </div>
+        {{/each}}
+    </script>
+    </div>
+    <script src="../js/news.js"></script>
+</body>
+</html>

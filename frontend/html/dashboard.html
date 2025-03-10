@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>History of the Internet in Russia</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <nav>
+        <div class="nav-buttons">
+            <button onclick="location.href='/frontend/html/index.html'">🏠 Home</button>
+            <button onclick="location.href='/frontend/html/history.html'">📜 History</button>
+            <button onclick="location.href='/frontend/html/dashboard.html'">📊 Dashboard</button>
+            <button onclick="location.href='/frontend/html/news.html'">📰 News</button>
+        </div>
+        <div class="burger-menu" onclick="toggleMenu()">
+            ☰
+        </div>
+         <div class="dropdown-menu">
+            <button onclick="location.href='/frontend/html/index.html'">🏠 Home</button>
+            <button onclick="location.href='/frontend/html/history.html'">📜 History</button>
+            <button onclick="location.href='/frontend/html/dashboard.html'">📊 Dashboard</button>
+            <button onclick="location.href='/frontend/html/news.html'">📰 News</button>
+        </div>
+    </nav>
+    <script src="../js/dashboard.js"></script>
+    <div class="dashboard-image-container">
+        <img src="../img/dashboard.png" alt="Global Internet Usage Dashboard">
+        <p class="dashboard-caption">
+            This is a static version of the dashboard. You can explore the interactive version
+            <a href="https://public.tableau.com/views/GlobalInternetUsageDashboard/Dashboard1" target="_blank">
+                here
+            </a>.
+        </p>
+    </div>    
+</body>
+</html>

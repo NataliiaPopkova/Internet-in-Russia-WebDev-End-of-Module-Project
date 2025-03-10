@@ -1,0 +1,225 @@
+/* ====== style across the page ====== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+/* ======  Headers  ====== */
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.h2 {
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.p {
+    font-size: 15px;
+    color: #666;
+}
+
+.event-box, .news-box, .history-event {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    max-width: 1000px;  
+    width: 100%;       
+    margin: 10px auto; 
+    background-color: #eaf4d3;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-box {
+    background-color: #f4e3e3;
+}
+
+.history-event {
+    background-color: #e9f58e4e;
+}
+
+.event-box {
+    background-color: #d3f4d9; ;
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .event-box, .news-box, .history-event {
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+}
+
+
+/* ====== Navigation (menu, buttons, dropdown) ====== */
+/* Menu for desktop  */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 20px auto;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button container */
+.nav-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* Menu buttons */
+button {
+    flex-grow: 1;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #21b8d67a;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+/* Effect when hoovering */
+button:hover {
+    background-color: #08e0f8;
+    transform: scale(1.05);
+}
+
+/* Burger menu icon (mobile version) */
+.burger-menu {
+    display: none; /* Hiding the burger icon at big screens */
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* Dropdown menu for mobile */
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Dropdown buttons */
+.dropdown-menu button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background: none;
+    border: 1px solid #ccc;
+    color: black;
+}
+
+/* ====== Media ====== */
+@media screen and (max-width: 768px) {
+    /* Hiding the normal buttons and displaying the burger */
+    .nav-buttons {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    /* Boxes adaptability */
+    .event-box, .history-event {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Smaller fonts and icons for smaller screens */
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .burger-menu {
+        font-size: 24px;
+    }
+}
+
+./* dashboard container */
+.dashboard-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px; 
+    margin: auto; 
+    padding: 10px;
+    background: white; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* THE dashboard png */
+.dashboard-image-container img {
+    width: 100%;
+    max-width: 1000px; 
+    height: auto; 
+    border-radius: 5px;
+}
+
+/* caption */
+.dashboard-caption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #060606;
+}
+
+/* The link to the interactive dashboard */
+.dashboard-caption a {
+    color: #2705d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dashboard-caption a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .dashboard-image-container {
+        padding: 5px;
+    }
+
+    .dashboard-caption {
+        font-size: 12px;
+    }
+}

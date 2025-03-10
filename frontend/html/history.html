@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>History of the Internet in Russia</title>
+</head>
+<body>
+    <h1>History of the Internet in Russia</h1>
+    
+    <nav>
+        <div class="nav-buttons">
+            <button onclick="location.href='/frontend/html/index.html'">🏠 Home</button>
+            <button onclick="location.href='/frontend/html/history.html'">📜 History</button>
+            <button onclick="location.href='/frontend/html/dashboard.html'">📊 Dashboard</button>
+            <button onclick="location.href='/frontend/html/news.html'">📰 News</button>
+        </div>
+        <div class="burger-menu" onclick="toggleMenu()">
+            ☰
+        </div>
+         <div class="dropdown-menu">
+            <button onclick="location.href='/frontend/html/index.html'">🏠 Home</button>
+            <button onclick="location.href='/frontend/html/history.html'">📜 History</button>
+            <button onclick="location.href='/frontend/html/dashboard.html'">📊 Dashboard</button>
+            <button onclick="location.href='/frontend/html/news.html'">📰 News</button>
+        </div>
+    </nav>
+
+    <div id="history-content"></div>
+
+    <!--Charging the handlebars library-->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+    <!--Template for the events - but at this page the detailed description is rendered-->
+    <script id="history-template" type="text/x-handlebars-template">
+        {{#each events}}
+        <section class="history-event">
+            <h2>{{year}}: {{title}}</h2>
+            <p>{{detailed_description}}</p>
+        </section>
+        {{/each}}
+    </script>
+ <!--Connecting the JS script-->   
+    <script src="../js/script_history.js"></script>
+</body>
+</html>
